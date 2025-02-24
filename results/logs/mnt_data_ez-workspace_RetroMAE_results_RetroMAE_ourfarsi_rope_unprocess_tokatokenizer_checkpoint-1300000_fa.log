@@ -1,0 +1,122 @@
+2024-12-07 11:10:08,261 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-12-07 11:10:08,261 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-12-07 11:10:08,261 - INFO - 
+
+PQuAD
+
+2024-12-07 11:10:08,261 - INFO - Loading dataset...
+2024-12-07 11:10:11,330 - INFO - Loading tokenizer from /mnt/data/ez-workspace/RetroMAE/results/RetroMAE_ourfarsi_rope_unprocess_tokatokenizer/checkpoint-1300000
+2024-12-07 11:10:11,401 - INFO - Loading model from /mnt/data/ez-workspace/RetroMAE/results/RetroMAE_ourfarsi_rope_unprocess_tokatokenizer/checkpoint-1300000
+2024-12-07 11:10:11,511 - INFO - Tokenizing dataset...
+2024-12-07 11:10:21,215 - INFO - Initializing Trainer...
+2024-12-07 11:10:21,657 - INFO - Starting training...
+2024-12-07 11:21:36,033 - INFO - Evaluating model on the test dataset...
+2024-12-07 11:22:10,992 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-12-07 11:22:10,992 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 71.56701708278581, 'eval_f1': 87.85234193558955, 'eval_runtime': 14.4059, 'eval_samples_per_second': 422.604, 'eval_steps_per_second': 6.664, 'epoch': 2.0}
+******************************
+
+
+2024-12-07 11:22:11,002 - INFO - 
+
+FarsTail
+
+2024-12-07 11:22:11,003 - INFO - Loading dataset...
+2024-12-07 11:22:15,032 - INFO - Loading tokenizer from /mnt/data/ez-workspace/RetroMAE/results/RetroMAE_ourfarsi_rope_unprocess_tokatokenizer/checkpoint-1300000
+2024-12-07 11:22:15,094 - INFO - Loading model from /mnt/data/ez-workspace/RetroMAE/results/RetroMAE_ourfarsi_rope_unprocess_tokatokenizer/checkpoint-1300000
+2024-12-07 11:22:15,192 - INFO - Tokenizing dataset...
+2024-12-07 11:22:18,050 - INFO - Initializing Trainer...
+2024-12-07 11:22:18,221 - INFO - Starting training...
+2024-12-07 11:24:37,397 - INFO - Evaluating model on the test dataset...
+2024-12-07 11:24:38,430 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-12-07 11:24:38,430 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.6121060252189636, 'eval_accuracy': 0.8465473145780051, 'eval_f1': 0.8454162661389124, 'eval_runtime': 1.0299, 'eval_samples_per_second': 1518.654, 'eval_steps_per_second': 47.579, 'epoch': 7.0}
+******************************
+
+
+2024-12-07 11:24:38,431 - INFO - 
+
+DeepSentiPers
+
+2024-12-07 11:24:38,431 - INFO - Loading dataset...
+2024-12-07 11:24:41,578 - INFO - Mapping labels to ternary classification
+2024-12-07 11:24:41,654 - INFO - Loading tokenizer from /mnt/data/ez-workspace/RetroMAE/results/RetroMAE_ourfarsi_rope_unprocess_tokatokenizer/checkpoint-1300000
+2024-12-07 11:24:41,705 - INFO - Loading model from /mnt/data/ez-workspace/RetroMAE/results/RetroMAE_ourfarsi_rope_unprocess_tokatokenizer/checkpoint-1300000
+2024-12-07 11:24:41,789 - INFO - Tokenizing dataset...
+2024-12-07 11:24:42,947 - INFO - Initializing Trainer...
+2024-12-07 11:24:43,155 - INFO - Starting training...
+2024-12-07 11:26:14,726 - INFO - Evaluating model on the test dataset...
+2024-12-07 11:26:16,977 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-12-07 11:26:16,978 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.4582172632217407, 'eval_accuracy': 0.8333333333333334, 'eval_f1': 0.8045322442893511, 'eval_runtime': 2.2489, 'eval_samples_per_second': 824.394, 'eval_steps_per_second': 51.58, 'epoch': 3.0}
+******************************
+
+
+2024-12-07 11:26:16,978 - INFO - 
+
+ParsiNLU_Multi
+
+2024-12-07 11:26:16,978 - INFO - Loading dataset...
+2024-12-07 11:26:21,205 - INFO - Loading tokenizer from /mnt/data/ez-workspace/RetroMAE/results/RetroMAE_ourfarsi_rope_unprocess_tokatokenizer/checkpoint-1300000
+2024-12-07 11:26:21,261 - INFO - Loading model from /mnt/data/ez-workspace/RetroMAE/results/RetroMAE_ourfarsi_rope_unprocess_tokatokenizer/checkpoint-1300000
+2024-12-07 11:26:24,862 - INFO - Tokenizing dataset...
+2024-12-07 11:26:26,031 - INFO - Initializing Trainer...
+2024-12-07 11:26:26,208 - INFO - Starting training...
+2024-12-07 11:27:01,876 - INFO - Evaluating model on the test dataset...
+2024-12-07 11:27:02,937 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-12-07 11:27:02,938 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.388014793395996, 'eval_accuracy': 0.25333333333333335, 'eval_f1-weighted': 0.25217327625946406, 'eval_precision': 0.2562700824039466, 'eval_recall': 0.25333333333333335, 'eval_runtime': 1.0588, 'eval_samples_per_second': 991.66, 'eval_steps_per_second': 31.166, 'epoch': 7.0}
+******************************
+
+

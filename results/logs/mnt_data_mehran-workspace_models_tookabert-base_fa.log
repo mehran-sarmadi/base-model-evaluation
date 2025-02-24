@@ -1,0 +1,122 @@
+2024-08-27 07:52:50,960 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-08-27 07:52:50,960 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-08-27 07:52:50,960 - INFO - 
+
+PQuAD
+
+2024-08-27 07:52:50,960 - INFO - Loading dataset...
+2024-08-27 07:53:06,478 - INFO - Loading tokenizer from /mnt/data/morteza-workspace/language-model/models/tokenizer/tookabert_tokenizer
+2024-08-27 07:53:06,578 - INFO - Loading model from /mnt/data/mehran-workspace/models/tookabert-base
+2024-08-27 07:53:08,409 - INFO - Tokenizing dataset...
+2024-08-27 07:53:08,624 - INFO - Initializing Trainer...
+2024-08-27 07:53:08,947 - INFO - Starting training...
+2024-08-27 08:00:22,370 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:00:58,570 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-08-27 08:00:58,570 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 71.43561103810775, 'eval_f1': 87.6296590047622, 'eval_runtime': 8.8915, 'eval_samples_per_second': 684.696, 'eval_steps_per_second': 10.797, 'epoch': 2.0}
+******************************
+
+
+2024-08-27 08:00:58,578 - INFO - 
+
+FarsTail
+
+2024-08-27 08:00:58,578 - INFO - Loading dataset...
+2024-08-27 08:01:25,615 - INFO - Loading tokenizer from /mnt/data/morteza-workspace/language-model/models/tokenizer/tookabert_tokenizer
+2024-08-27 08:01:25,709 - INFO - Loading model from /mnt/data/mehran-workspace/models/tookabert-base
+2024-08-27 08:01:27,542 - INFO - Tokenizing dataset...
+2024-08-27 08:01:27,677 - INFO - Initializing Trainer...
+2024-08-27 08:01:27,757 - INFO - Starting training...
+2024-08-27 08:03:10,253 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:03:11,046 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-08-27 08:03:11,046 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.8570369482040405, 'eval_accuracy': 0.828005115089514, 'eval_f1': 0.8278131425292136, 'eval_runtime': 0.7902, 'eval_samples_per_second': 1979.368, 'eval_steps_per_second': 62.013, 'epoch': 7.0}
+******************************
+
+
+2024-08-27 08:03:11,048 - INFO - 
+
+DeepSentiPers
+
+2024-08-27 08:03:11,048 - INFO - Loading dataset...
+2024-08-27 08:03:22,265 - INFO - Mapping labels to ternary classification
+2024-08-27 08:03:22,350 - INFO - Loading tokenizer from /mnt/data/morteza-workspace/language-model/models/tokenizer/tookabert_tokenizer
+2024-08-27 08:03:22,434 - INFO - Loading model from /mnt/data/mehran-workspace/models/tookabert-base
+2024-08-27 08:03:24,241 - INFO - Tokenizing dataset...
+2024-08-27 08:03:26,967 - INFO - Initializing Trainer...
+2024-08-27 08:03:27,054 - INFO - Starting training...
+2024-08-27 08:05:11,622 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:05:14,719 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-08-27 08:05:14,719 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5652489066123962, 'eval_accuracy': 0.8300970873786407, 'eval_f1': 0.7985931066315334, 'eval_runtime': 3.0943, 'eval_samples_per_second': 599.167, 'eval_steps_per_second': 37.488, 'epoch': 3.0}
+******************************
+
+
+2024-08-27 08:05:14,720 - INFO - 
+
+ParsiNLU_Multi
+
+2024-08-27 08:05:14,720 - INFO - Loading dataset...
+2024-08-27 08:05:19,254 - INFO - Loading tokenizer from /mnt/data/morteza-workspace/language-model/models/tokenizer/tookabert_tokenizer
+2024-08-27 08:05:19,346 - INFO - Loading model from /mnt/data/mehran-workspace/models/tookabert-base
+2024-08-27 08:05:21,504 - INFO - Tokenizing dataset...
+2024-08-27 08:05:21,683 - INFO - Initializing Trainer...
+2024-08-27 08:05:21,764 - INFO - Starting training...
+2024-08-27 08:05:49,242 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:05:50,132 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-08-27 08:05:50,132 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.965983510017395, 'eval_accuracy': 0.30857142857142855, 'eval_f1-weighted': 0.30766164482189723, 'eval_precision': 0.31081114863857257, 'eval_recall': 0.30857142857142855, 'eval_runtime': 0.8867, 'eval_samples_per_second': 1184.117, 'eval_steps_per_second': 37.215, 'epoch': 7.0}
+******************************
+
+

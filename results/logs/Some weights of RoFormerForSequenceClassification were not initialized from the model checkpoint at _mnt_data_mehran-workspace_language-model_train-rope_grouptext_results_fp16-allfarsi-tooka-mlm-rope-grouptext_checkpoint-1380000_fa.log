@@ -1,0 +1,39 @@
+2024-10-20 11:39:20,942 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-20 11:39:20,942 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-20 11:39:20,942 - INFO - 
+
+PQuAD
+
+2024-10-20 11:39:20,942 - INFO - Loading dataset...
+2024-10-20 11:39:31,727 - INFO - Loading tokenizer from Some weights of RoFormerForSequenceClassification were not initialized from the model checkpoint at /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000

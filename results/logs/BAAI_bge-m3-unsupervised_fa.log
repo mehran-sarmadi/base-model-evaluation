@@ -1,0 +1,255 @@
+2024-10-15 07:18:46,929 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-15 07:18:46,929 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-15 07:18:46,929 - INFO - 
+
+PQuAD
+
+2024-10-15 07:18:46,929 - INFO - Loading dataset...
+2024-10-15 07:18:50,300 - INFO - Loading tokenizer from BAAI/bge-m3-unsupervised
+2024-10-15 07:18:55,552 - INFO - Loading model from BAAI/bge-m3-unsupervised
+2024-10-15 07:20:06,082 - INFO - Tokenizing dataset...
+2024-10-15 07:20:17,502 - INFO - Initializing Trainer...
+2024-10-15 07:20:18,796 - INFO - Starting training...
+2024-10-15 07:33:37,470 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-15 07:33:37,470 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-15 07:33:37,470 - INFO - 
+
+PQuAD
+
+2024-10-15 07:33:37,470 - INFO - 
+
+FarsTail
+
+2024-10-15 07:33:37,471 - INFO - Loading dataset...
+2024-10-15 07:33:41,910 - INFO - Loading tokenizer from BAAI/bge-m3-unsupervised
+2024-10-15 07:33:42,930 - INFO - Loading model from BAAI/bge-m3-unsupervised
+2024-10-15 07:33:43,415 - INFO - Tokenizing dataset...
+2024-10-15 07:33:44,800 - INFO - Initializing Trainer...
+2024-10-15 07:33:50,276 - INFO - Starting training...
+2024-10-15 07:40:00,390 - INFO - Evaluating model on the test dataset...
+2024-10-15 07:40:02,173 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-10-15 07:40:02,173 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5575798153877258, 'eval_accuracy': 0.8765984654731458, 'eval_f1': 0.876099322703467, 'eval_runtime': 1.7799, 'eval_samples_per_second': 878.712, 'eval_steps_per_second': 27.53, 'epoch': 7.0}
+******************************
+
+
+2024-10-15 07:40:02,175 - INFO - 
+
+DeepSentiPers
+
+2024-10-15 07:40:02,175 - INFO - Loading dataset...
+2024-10-15 07:40:06,505 - INFO - Mapping labels to ternary classification
+2024-10-15 07:40:06,580 - INFO - Loading tokenizer from BAAI/bge-m3-unsupervised
+2024-10-15 07:40:07,581 - INFO - Loading model from BAAI/bge-m3-unsupervised
+2024-10-15 07:40:07,891 - INFO - Tokenizing dataset...
+2024-10-15 07:40:08,504 - INFO - Initializing Trainer...
+2024-10-15 07:40:09,486 - INFO - Starting training...
+2024-10-15 07:43:44,733 - INFO - Evaluating model on the test dataset...
+2024-10-15 07:43:48,150 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-10-15 07:43:48,150 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.4990643858909607, 'eval_accuracy': 0.8284789644012945, 'eval_f1': 0.8076531473480668, 'eval_runtime': 3.414, 'eval_samples_per_second': 543.054, 'eval_steps_per_second': 33.977, 'epoch': 3.0}
+******************************
+
+
+2024-10-15 07:43:48,151 - INFO - 
+
+ParsiNLU_Multi
+
+2024-10-15 07:43:48,151 - INFO - Loading dataset...
+2024-10-15 07:43:53,570 - INFO - Loading tokenizer from BAAI/bge-m3-unsupervised
+2024-10-15 07:43:54,469 - INFO - Loading model from BAAI/bge-m3-unsupervised
+2024-10-15 07:44:02,278 - INFO - Tokenizing dataset...
+2024-10-15 07:44:03,216 - INFO - Initializing Trainer...
+2024-10-15 07:44:04,039 - INFO - Starting training...
+2024-10-15 07:45:35,907 - INFO - Evaluating model on the test dataset...
+2024-10-15 07:45:38,205 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-10-15 07:45:38,205 - INFO - 
+
+******************************
+Test results: {'eval_loss': 2.462512254714966, 'eval_accuracy': 0.36666666666666664, 'eval_f1-weighted': 0.36866763866817126, 'eval_precision': 0.373799159877126, 'eval_recall': 0.36666666666666664, 'eval_runtime': 2.2937, 'eval_samples_per_second': 457.775, 'eval_steps_per_second': 14.387, 'epoch': 7.0}
+******************************
+
+
+2024-10-15 08:29:11,381 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-15 08:29:11,381 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-15 08:29:11,381 - INFO - 
+
+PQuAD
+
+2024-10-15 08:29:11,381 - INFO - Loading dataset...
+2024-10-15 08:29:15,031 - INFO - Loading tokenizer from BAAI/bge-m3-unsupervised
+2024-10-15 08:29:16,006 - INFO - Loading model from BAAI/bge-m3-unsupervised
+2024-10-15 08:29:16,498 - INFO - Tokenizing dataset...
+2024-10-15 08:29:17,241 - INFO - Initializing Trainer...
+2024-10-15 08:29:20,971 - INFO - Starting training...
+2024-10-15 08:31:26,713 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-15 08:31:26,713 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-15 08:31:26,713 - INFO - 
+
+PQuAD
+
+2024-10-15 08:31:26,713 - INFO - Loading dataset...
+2024-10-15 08:31:29,756 - INFO - Loading tokenizer from BAAI/bge-m3-unsupervised
+2024-10-15 08:31:30,652 - INFO - Loading model from BAAI/bge-m3-unsupervised
+2024-10-15 08:31:30,983 - INFO - Tokenizing dataset...
+2024-10-15 08:31:31,640 - INFO - Initializing Trainer...
+2024-10-15 08:31:32,439 - INFO - Starting training...
+2024-10-15 08:58:32,878 - INFO - Evaluating model on the test dataset...
+2024-10-15 08:59:22,731 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-10-15 08:59:22,731 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 71.87910643889619, 'eval_f1': 88.76147703127174, 'eval_runtime': 29.8575, 'eval_samples_per_second': 203.902, 'eval_steps_per_second': 3.215, 'epoch': 2.0}
+******************************
+
+
+2024-10-15 08:59:22,741 - INFO - 
+
+FarsTail
+
+2024-10-15 08:59:22,741 - INFO - Loading dataset...
+2024-10-15 08:59:27,289 - INFO - Loading tokenizer from BAAI/bge-m3-unsupervised
+2024-10-15 08:59:28,152 - INFO - Loading model from BAAI/bge-m3-unsupervised
+2024-10-15 08:59:28,483 - INFO - Tokenizing dataset...
+2024-10-15 08:59:28,919 - INFO - Initializing Trainer...
+2024-10-15 08:59:29,766 - INFO - Starting training...

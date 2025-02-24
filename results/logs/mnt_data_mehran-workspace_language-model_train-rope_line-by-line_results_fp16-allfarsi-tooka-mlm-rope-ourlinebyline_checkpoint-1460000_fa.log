@@ -1,0 +1,122 @@
+2024-10-16 03:43:07,791 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-16 03:43:07,791 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-16 03:43:07,791 - INFO - 
+
+PQuAD
+
+2024-10-16 03:43:07,791 - INFO - Loading dataset...
+2024-10-16 03:43:13,276 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/train-rope/line-by-line/results/fp16-allfarsi-tooka-mlm-rope-ourlinebyline/checkpoint-1460000
+2024-10-16 03:43:13,335 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/train-rope/line-by-line/results/fp16-allfarsi-tooka-mlm-rope-ourlinebyline/checkpoint-1460000
+2024-10-16 03:43:13,439 - INFO - Tokenizing dataset...
+2024-10-16 03:43:22,846 - INFO - Initializing Trainer...
+2024-10-16 03:43:23,189 - INFO - Starting training...
+2024-10-16 03:54:31,567 - INFO - Evaluating model on the test dataset...
+2024-10-16 03:55:05,158 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-10-16 03:55:05,158 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 71.55059132720105, 'eval_f1': 88.05690580630889, 'eval_runtime': 14.276, 'eval_samples_per_second': 426.45, 'eval_steps_per_second': 6.725, 'epoch': 2.0}
+******************************
+
+
+2024-10-16 03:55:05,166 - INFO - 
+
+FarsTail
+
+2024-10-16 03:55:05,167 - INFO - Loading dataset...
+2024-10-16 03:55:12,133 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/train-rope/line-by-line/results/fp16-allfarsi-tooka-mlm-rope-ourlinebyline/checkpoint-1460000
+2024-10-16 03:55:12,185 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/train-rope/line-by-line/results/fp16-allfarsi-tooka-mlm-rope-ourlinebyline/checkpoint-1460000
+2024-10-16 03:55:12,281 - INFO - Tokenizing dataset...
+2024-10-16 03:55:15,000 - INFO - Initializing Trainer...
+2024-10-16 03:55:15,126 - INFO - Starting training...
+2024-10-16 03:57:38,685 - INFO - Evaluating model on the test dataset...
+2024-10-16 03:57:39,683 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-10-16 03:57:39,683 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.8794941306114197, 'eval_accuracy': 0.8478260869565217, 'eval_f1': 0.8475306102907386, 'eval_runtime': 0.9955, 'eval_samples_per_second': 1571.058, 'eval_steps_per_second': 49.221, 'epoch': 7.0}
+******************************
+
+
+2024-10-16 03:57:39,685 - INFO - 
+
+DeepSentiPers
+
+2024-10-16 03:57:39,685 - INFO - Loading dataset...
+2024-10-16 03:57:44,470 - INFO - Mapping labels to ternary classification
+2024-10-16 03:57:44,541 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/train-rope/line-by-line/results/fp16-allfarsi-tooka-mlm-rope-ourlinebyline/checkpoint-1460000
+2024-10-16 03:57:44,591 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/train-rope/line-by-line/results/fp16-allfarsi-tooka-mlm-rope-ourlinebyline/checkpoint-1460000
+2024-10-16 03:57:44,675 - INFO - Tokenizing dataset...
+2024-10-16 03:57:45,727 - INFO - Initializing Trainer...
+2024-10-16 03:57:45,861 - INFO - Starting training...
+2024-10-16 03:59:17,901 - INFO - Evaluating model on the test dataset...
+2024-10-16 03:59:20,139 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-10-16 03:59:20,139 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5121303796768188, 'eval_accuracy': 0.825782092772384, 'eval_f1': 0.8010420104026399, 'eval_runtime': 2.235, 'eval_samples_per_second': 829.549, 'eval_steps_per_second': 51.903, 'epoch': 3.0}
+******************************
+
+
+2024-10-16 03:59:20,140 - INFO - 
+
+ParsiNLU_Multi
+
+2024-10-16 03:59:20,140 - INFO - Loading dataset...
+2024-10-16 03:59:34,951 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/train-rope/line-by-line/results/fp16-allfarsi-tooka-mlm-rope-ourlinebyline/checkpoint-1460000
+2024-10-16 03:59:35,003 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/train-rope/line-by-line/results/fp16-allfarsi-tooka-mlm-rope-ourlinebyline/checkpoint-1460000
+2024-10-16 03:59:38,181 - INFO - Tokenizing dataset...
+2024-10-16 03:59:39,272 - INFO - Initializing Trainer...
+2024-10-16 03:59:39,402 - INFO - Starting training...
+2024-10-16 04:00:14,481 - INFO - Evaluating model on the test dataset...
+2024-10-16 04:00:15,519 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-10-16 04:00:15,520 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.6960688829421997, 'eval_accuracy': 0.32761904761904764, 'eval_f1-weighted': 0.3273367682293251, 'eval_precision': 0.3280853258611394, 'eval_recall': 0.32761904761904764, 'eval_runtime': 1.0356, 'eval_samples_per_second': 1013.874, 'eval_steps_per_second': 31.865, 'epoch': 7.0}
+******************************
+
+

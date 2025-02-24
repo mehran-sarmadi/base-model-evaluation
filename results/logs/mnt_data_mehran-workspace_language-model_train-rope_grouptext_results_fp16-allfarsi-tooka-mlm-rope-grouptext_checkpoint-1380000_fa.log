@@ -1,0 +1,122 @@
+2024-10-20 11:41:00,785 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-20 11:41:00,786 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-20 11:41:00,786 - INFO - 
+
+PQuAD
+
+2024-10-20 11:41:00,786 - INFO - Loading dataset...
+2024-10-20 11:41:04,022 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000
+2024-10-20 11:41:04,084 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000
+2024-10-20 11:41:04,197 - INFO - Tokenizing dataset...
+2024-10-20 11:41:14,174 - INFO - Initializing Trainer...
+2024-10-20 11:41:14,514 - INFO - Starting training...
+2024-10-20 11:52:34,838 - INFO - Evaluating model on the test dataset...
+2024-10-20 11:53:11,418 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-10-20 11:53:11,418 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 71.61629434954008, 'eval_f1': 87.92987949039373, 'eval_runtime': 14.6106, 'eval_samples_per_second': 416.684, 'eval_steps_per_second': 6.571, 'epoch': 2.0}
+******************************
+
+
+2024-10-20 11:53:11,426 - INFO - 
+
+FarsTail
+
+2024-10-20 11:53:11,426 - INFO - Loading dataset...
+2024-10-20 11:53:21,924 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000
+2024-10-20 11:53:21,980 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000
+2024-10-20 11:53:22,082 - INFO - Tokenizing dataset...
+2024-10-20 11:53:25,187 - INFO - Initializing Trainer...
+2024-10-20 11:53:25,327 - INFO - Starting training...
+2024-10-20 11:55:47,385 - INFO - Evaluating model on the test dataset...
+2024-10-20 11:55:48,510 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-10-20 11:55:48,510 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.8627344369888306, 'eval_accuracy': 0.8497442455242967, 'eval_f1': 0.8490006783420303, 'eval_runtime': 1.1227, 'eval_samples_per_second': 1393.047, 'eval_steps_per_second': 43.644, 'epoch': 7.0}
+******************************
+
+
+2024-10-20 11:55:48,511 - INFO - 
+
+DeepSentiPers
+
+2024-10-20 11:55:48,511 - INFO - Loading dataset...
+2024-10-20 11:55:54,014 - INFO - Mapping labels to ternary classification
+2024-10-20 11:55:54,093 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000
+2024-10-20 11:55:54,144 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000
+2024-10-20 11:55:54,236 - INFO - Tokenizing dataset...
+2024-10-20 11:55:55,452 - INFO - Initializing Trainer...
+2024-10-20 11:55:55,588 - INFO - Starting training...
+2024-10-20 11:57:29,406 - INFO - Evaluating model on the test dataset...
+2024-10-20 11:57:31,802 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-10-20 11:57:31,803 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5522676706314087, 'eval_accuracy': 0.8290183387270766, 'eval_f1': 0.8016275892525487, 'eval_runtime': 2.3942, 'eval_samples_per_second': 774.362, 'eval_steps_per_second': 48.45, 'epoch': 3.0}
+******************************
+
+
+2024-10-20 11:57:31,803 - INFO - 
+
+ParsiNLU_Multi
+
+2024-10-20 11:57:31,803 - INFO - Loading dataset...
+2024-10-20 11:57:38,328 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000
+2024-10-20 11:57:38,382 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/train-rope/grouptext/results/fp16-allfarsi-tooka-mlm-rope-grouptext/checkpoint-1380000
+2024-10-20 11:57:41,554 - INFO - Tokenizing dataset...
+2024-10-20 11:57:42,797 - INFO - Initializing Trainer...
+2024-10-20 11:57:42,942 - INFO - Starting training...
+2024-10-20 11:58:18,384 - INFO - Evaluating model on the test dataset...
+2024-10-20 11:58:19,470 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-10-20 11:58:19,470 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.5811728239059448, 'eval_accuracy': 0.3342857142857143, 'eval_f1-weighted': 0.334274262429178, 'eval_precision': 0.33785530458146557, 'eval_recall': 0.3342857142857143, 'eval_runtime': 1.0828, 'eval_samples_per_second': 969.69, 'eval_steps_per_second': 30.476, 'epoch': 7.0}
+******************************
+
+

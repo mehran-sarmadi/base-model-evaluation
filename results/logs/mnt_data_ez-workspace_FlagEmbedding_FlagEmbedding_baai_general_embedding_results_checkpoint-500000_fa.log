@@ -1,0 +1,161 @@
+2024-10-12 08:54:13,721 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-12 08:54:13,721 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-12 08:54:13,722 - INFO - 
+
+PQuAD
+
+2024-10-12 08:54:13,722 - INFO - Loading dataset...
+2024-10-12 08:54:28,693 - INFO - Loading tokenizer from /mnt/data/ez-workspace/FlagEmbedding/FlagEmbedding/baai_general_embedding/results/checkpoint-500000
+2024-10-12 08:57:03,813 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-12 08:57:03,814 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-12 08:57:03,814 - INFO - 
+
+PQuAD
+
+2024-10-12 08:57:03,814 - INFO - Loading dataset...
+2024-10-12 08:57:07,507 - INFO - Loading tokenizer from /mnt/data/morteza-workspace/language-model/models/tokenizer/tookabert_tokenizer
+2024-10-12 08:57:07,609 - INFO - Loading model from /mnt/data/ez-workspace/FlagEmbedding/FlagEmbedding/baai_general_embedding/results/checkpoint-500000
+2024-10-12 08:57:07,698 - INFO - Tokenizing dataset...
+2024-10-12 08:57:17,979 - INFO - Initializing Trainer...
+2024-10-12 08:57:18,304 - INFO - Starting training...
+2024-10-12 09:04:15,043 - INFO - Evaluating model on the test dataset...
+2024-10-12 09:04:45,088 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-10-12 09:04:45,088 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 70.87713534822602, 'eval_f1': 87.54603230055409, 'eval_runtime': 8.1535, 'eval_samples_per_second': 746.675, 'eval_steps_per_second': 11.774, 'epoch': 2.0}
+******************************
+
+
+2024-10-12 09:04:45,097 - INFO - 
+
+FarsTail
+
+2024-10-12 09:04:45,098 - INFO - Loading dataset...
+2024-10-12 09:04:50,699 - INFO - Loading tokenizer from /mnt/data/morteza-workspace/language-model/models/tokenizer/tookabert_tokenizer
+2024-10-12 09:04:50,784 - INFO - Loading model from /mnt/data/ez-workspace/FlagEmbedding/FlagEmbedding/baai_general_embedding/results/checkpoint-500000
+2024-10-12 09:04:50,844 - INFO - Tokenizing dataset...
+2024-10-12 09:04:53,922 - INFO - Initializing Trainer...
+2024-10-12 09:04:54,042 - INFO - Starting training...
+2024-10-12 09:06:48,534 - INFO - Evaluating model on the test dataset...
+2024-10-12 09:06:49,333 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-10-12 09:06:49,333 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.0125068426132202, 'eval_accuracy': 0.8331202046035806, 'eval_f1': 0.8329738072686984, 'eval_runtime': 0.7965, 'eval_samples_per_second': 1963.499, 'eval_steps_per_second': 61.516, 'epoch': 7.0}
+******************************
+
+
+2024-10-12 09:06:49,334 - INFO - 
+
+DeepSentiPers
+
+2024-10-12 09:06:49,335 - INFO - Loading dataset...
+2024-10-12 09:06:54,777 - INFO - Mapping labels to ternary classification
+2024-10-12 09:06:54,854 - INFO - Loading tokenizer from /mnt/data/morteza-workspace/language-model/models/tokenizer/tookabert_tokenizer
+2024-10-12 09:06:54,947 - INFO - Loading model from /mnt/data/ez-workspace/FlagEmbedding/FlagEmbedding/baai_general_embedding/results/checkpoint-500000
+2024-10-12 09:06:54,991 - INFO - Tokenizing dataset...
+2024-10-12 09:06:56,213 - INFO - Initializing Trainer...
+2024-10-12 09:06:56,359 - INFO - Starting training...
+2024-10-12 09:08:09,837 - INFO - Evaluating model on the test dataset...
+2024-10-12 09:08:11,464 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-10-12 09:08:11,464 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5815985202789307, 'eval_accuracy': 0.8322545846817692, 'eval_f1': 0.801850332863689, 'eval_runtime': 1.6239, 'eval_samples_per_second': 1141.672, 'eval_steps_per_second': 71.431, 'epoch': 3.0}
+******************************
+
+
+2024-10-12 09:08:11,464 - INFO - 
+
+ParsiNLU_Multi
+
+2024-10-12 09:08:11,465 - INFO - Loading dataset...
+2024-10-12 09:08:17,996 - INFO - Loading tokenizer from /mnt/data/morteza-workspace/language-model/models/tokenizer/tookabert_tokenizer
+2024-10-12 09:08:18,081 - INFO - Loading model from /mnt/data/ez-workspace/FlagEmbedding/FlagEmbedding/baai_general_embedding/results/checkpoint-500000
+2024-10-12 09:08:21,608 - INFO - Tokenizing dataset...
+2024-10-12 09:08:22,895 - INFO - Initializing Trainer...
+2024-10-12 09:08:23,019 - INFO - Starting training...
+2024-10-12 09:08:49,149 - INFO - Evaluating model on the test dataset...
+2024-10-12 09:08:49,904 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-10-12 09:08:49,904 - INFO - 
+
+******************************
+Test results: {'eval_loss': 2.0964674949645996, 'eval_accuracy': 0.3171428571428571, 'eval_f1-weighted': 0.31831173303785537, 'eval_precision': 0.32009514813383577, 'eval_recall': 0.3171428571428571, 'eval_runtime': 0.7516, 'eval_samples_per_second': 1397.071, 'eval_steps_per_second': 43.908, 'epoch': 7.0}
+******************************
+
+

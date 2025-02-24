@@ -1,0 +1,283 @@
+2024-11-19 13:20:08,636 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-11-19 13:20:08,636 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-11-19 13:20:08,636 - INFO - 
+
+PQuAD
+
+2024-11-19 13:20:08,636 - INFO - Loading dataset...
+2024-11-19 13:20:11,369 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 13:22:57,499 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-11-19 13:22:57,499 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-11-19 13:22:57,500 - INFO - 
+
+PQuAD
+
+2024-11-19 13:22:57,500 - INFO - Loading dataset...
+2024-11-19 13:23:00,459 - INFO - Loading tokenizer from /mnt/data/ez-workspace/tokenizer/models/persian_50k_bbpe_xlmclean_ourdata/tokenizer
+2024-11-19 13:23:00,535 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 13:23:00,621 - INFO - Tokenizing dataset...
+2024-11-19 13:23:12,707 - INFO - Initializing Trainer...
+2024-11-19 13:23:13,143 - INFO - Starting training...
+2024-11-19 13:30:27,814 - INFO - Evaluating model on the test dataset...
+2024-11-19 13:30:58,392 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-11-19 13:30:58,392 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 0.0328515111695138, 'eval_f1': 5.9660626153728655, 'eval_runtime': 9.0487, 'eval_samples_per_second': 672.805, 'eval_steps_per_second': 10.609, 'epoch': 2.0}
+******************************
+
+
+2024-11-19 13:30:58,401 - INFO - 
+
+FarsTail
+
+2024-11-19 13:30:58,401 - INFO - Loading dataset...
+2024-11-19 13:31:04,797 - INFO - Loading tokenizer from /mnt/data/ez-workspace/tokenizer/models/persian_50k_bbpe_xlmclean_ourdata/tokenizer
+2024-11-19 13:31:04,850 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 13:31:04,908 - INFO - Tokenizing dataset...
+2024-11-19 13:31:08,408 - INFO - Initializing Trainer...
+2024-11-19 13:31:08,554 - INFO - Starting training...
+2024-11-19 13:33:01,560 - INFO - Evaluating model on the test dataset...
+2024-11-19 13:33:02,375 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-11-19 13:33:02,375 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.101448893547058, 'eval_accuracy': 0.3420716112531969, 'eval_f1': 0.1699221851675401, 'eval_runtime': 0.8125, 'eval_samples_per_second': 1925.013, 'eval_steps_per_second': 60.311, 'epoch': 7.0}
+******************************
+
+
+2024-11-19 13:33:02,376 - INFO - 
+
+DeepSentiPers
+
+2024-11-19 13:33:02,377 - INFO - Loading dataset...
+2024-11-19 13:33:05,169 - INFO - Mapping labels to ternary classification
+2024-11-19 13:33:05,243 - INFO - Loading tokenizer from /mnt/data/ez-workspace/tokenizer/models/persian_50k_bbpe_xlmclean_ourdata/tokenizer
+2024-11-19 13:33:05,300 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 13:33:05,345 - INFO - Tokenizing dataset...
+2024-11-19 13:33:06,610 - INFO - Initializing Trainer...
+2024-11-19 13:33:06,764 - INFO - Starting training...
+2024-11-19 13:34:17,070 - INFO - Evaluating model on the test dataset...
+2024-11-19 13:34:18,682 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-11-19 13:34:18,682 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5204294323921204, 'eval_accuracy': 0.8214670981661273, 'eval_f1': 0.7875742330496056, 'eval_runtime': 1.6097, 'eval_samples_per_second': 1151.758, 'eval_steps_per_second': 72.063, 'epoch': 3.0}
+******************************
+
+
+2024-11-19 13:34:18,683 - INFO - 
+
+ParsiNLU_Multi
+
+2024-11-19 13:34:18,683 - INFO - Loading dataset...
+2024-11-19 13:34:22,327 - INFO - Loading tokenizer from /mnt/data/ez-workspace/tokenizer/models/persian_50k_bbpe_xlmclean_ourdata/tokenizer
+2024-11-19 13:34:22,394 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 13:34:25,749 - INFO - Tokenizing dataset...
+2024-11-19 13:34:27,095 - INFO - Initializing Trainer...
+2024-11-19 13:34:27,273 - INFO - Starting training...
+2024-11-19 13:34:56,297 - INFO - Evaluating model on the test dataset...
+2024-11-19 13:34:57,186 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-11-19 13:34:57,186 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.3863970041275024, 'eval_accuracy': 0.23714285714285716, 'eval_f1-weighted': 0.23742763348686305, 'eval_precision': 0.24213580672756452, 'eval_recall': 0.23714285714285716, 'eval_runtime': 0.886, 'eval_samples_per_second': 1185.058, 'eval_steps_per_second': 37.245, 'epoch': 7.0}
+******************************
+
+
+2024-11-19 14:08:20,846 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-11-19 14:08:20,846 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-11-19 14:08:20,846 - INFO - 
+
+PQuAD
+
+2024-11-19 14:08:20,846 - INFO - Loading dataset...
+2024-11-19 14:08:23,581 - INFO - Loading tokenizer from /mnt/data/ez-workspace/tokenizer/models/persian_50k_bbpe_xlmclean_ourdata/tokenizer
+2024-11-19 14:08:23,647 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 14:08:23,712 - INFO - Tokenizing dataset...
+2024-11-19 14:08:24,274 - INFO - Initializing Trainer...
+2024-11-19 14:08:24,623 - INFO - Starting training...
+2024-11-19 14:15:38,508 - INFO - Evaluating model on the test dataset...
+2024-11-19 14:16:10,548 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-11-19 14:16:10,548 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 69.67805519053877, 'eval_f1': 86.55152160238143, 'eval_runtime': 9.1208, 'eval_samples_per_second': 667.482, 'eval_steps_per_second': 10.525, 'epoch': 2.0}
+******************************
+
+
+2024-11-19 14:16:10,557 - INFO - 
+
+FarsTail
+
+2024-11-19 14:16:10,557 - INFO - Loading dataset...
+2024-11-19 14:16:14,390 - INFO - Loading tokenizer from /mnt/data/ez-workspace/tokenizer/models/persian_50k_bbpe_xlmclean_ourdata/tokenizer
+2024-11-19 14:16:14,455 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 14:16:14,515 - INFO - Tokenizing dataset...
+2024-11-19 14:16:14,676 - INFO - Initializing Trainer...
+2024-11-19 14:16:14,816 - INFO - Starting training...
+2024-11-19 14:18:06,684 - INFO - Evaluating model on the test dataset...
+2024-11-19 14:18:07,506 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-11-19 14:18:07,506 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.1002368927001953, 'eval_accuracy': 0.3420716112531969, 'eval_f1': 0.1699221851675401, 'eval_runtime': 0.8193, 'eval_samples_per_second': 1909.035, 'eval_steps_per_second': 59.81, 'epoch': 7.0}
+******************************
+
+
+2024-11-19 14:18:07,507 - INFO - 
+
+DeepSentiPers
+
+2024-11-19 14:18:07,507 - INFO - Loading dataset...
+2024-11-19 14:18:10,163 - INFO - Mapping labels to ternary classification
+2024-11-19 14:18:10,234 - INFO - Loading tokenizer from /mnt/data/ez-workspace/tokenizer/models/persian_50k_bbpe_xlmclean_ourdata/tokenizer
+2024-11-19 14:18:10,288 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 14:18:10,333 - INFO - Tokenizing dataset...
+2024-11-19 14:18:11,534 - INFO - Initializing Trainer...
+2024-11-19 14:18:11,665 - INFO - Starting training...
+2024-11-19 14:19:19,453 - INFO - Evaluating model on the test dataset...
+2024-11-19 14:19:21,125 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-11-19 14:19:21,125 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.563227653503418, 'eval_accuracy': 0.8284789644012945, 'eval_f1': 0.7924761843671698, 'eval_runtime': 1.669, 'eval_samples_per_second': 1110.833, 'eval_steps_per_second': 69.502, 'epoch': 3.0}
+******************************
+
+
+2024-11-19 14:19:21,126 - INFO - 
+
+ParsiNLU_Multi
+
+2024-11-19 14:19:21,126 - INFO - Loading dataset...
+2024-11-19 14:19:24,690 - INFO - Loading tokenizer from /mnt/data/ez-workspace/tokenizer/models/persian_50k_bbpe_xlmclean_ourdata/tokenizer
+2024-11-19 14:19:24,749 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000
+2024-11-19 14:19:24,951 - INFO - Tokenizing dataset...
+2024-11-19 14:19:25,115 - INFO - Initializing Trainer...
+2024-11-19 14:19:25,287 - INFO - Starting training...
+2024-11-19 14:19:54,269 - INFO - Evaluating model on the test dataset...
+2024-11-19 14:19:55,176 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-11-19 14:19:55,176 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.3865196704864502, 'eval_accuracy': 0.26857142857142857, 'eval_f1-weighted': 0.2667392476036677, 'eval_precision': 0.2679214428019556, 'eval_recall': 0.26857142857142857, 'eval_runtime': 0.904, 'eval_samples_per_second': 1161.452, 'eval_steps_per_second': 36.503, 'epoch': 7.0}
+******************************
+
+

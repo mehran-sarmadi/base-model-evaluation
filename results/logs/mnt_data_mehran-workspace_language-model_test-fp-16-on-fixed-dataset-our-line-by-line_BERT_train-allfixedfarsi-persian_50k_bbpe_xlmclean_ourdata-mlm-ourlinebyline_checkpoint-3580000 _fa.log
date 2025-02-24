@@ -1,0 +1,39 @@
+2024-11-19 13:18:44,487 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-11-19 13:18:44,487 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-11-19 13:18:44,487 - INFO - 
+
+PQuAD
+
+2024-11-19 13:18:44,487 - INFO - Loading dataset...
+2024-11-19 13:18:47,517 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset-our-line-by-line/BERT/train-allfixedfarsi-persian_50k_bbpe_xlmclean_ourdata-mlm-ourlinebyline/checkpoint-3580000 

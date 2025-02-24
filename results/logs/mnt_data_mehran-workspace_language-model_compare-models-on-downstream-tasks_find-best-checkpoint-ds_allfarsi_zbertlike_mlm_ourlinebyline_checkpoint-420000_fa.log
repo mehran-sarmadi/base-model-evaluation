@@ -1,0 +1,43 @@
+2024-10-07 14:28:42,192 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-07 14:28:42,192 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-07 14:28:42,192 - INFO - 
+
+PQuAD
+
+2024-10-07 14:28:42,192 - INFO - Loading dataset...
+2024-10-07 14:28:45,319 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-420000
+2024-10-07 14:28:45,391 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-420000
+2024-10-07 14:28:45,500 - INFO - Tokenizing dataset...
+2024-10-07 14:28:53,769 - INFO - Initializing Trainer...
+2024-10-07 14:28:54,859 - INFO - Starting training...

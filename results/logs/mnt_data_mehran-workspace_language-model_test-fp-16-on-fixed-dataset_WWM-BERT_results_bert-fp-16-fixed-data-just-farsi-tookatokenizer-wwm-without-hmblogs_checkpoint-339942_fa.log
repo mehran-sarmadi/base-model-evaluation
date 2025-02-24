@@ -1,0 +1,244 @@
+2024-08-27 08:26:59,891 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-08-27 08:26:59,891 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-08-27 08:26:59,891 - INFO - 
+
+PQuAD
+
+2024-08-27 08:26:59,891 - INFO - Loading dataset...
+2024-08-27 08:27:18,876 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-27 08:27:18,932 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-27 08:27:20,950 - INFO - Tokenizing dataset...
+2024-08-27 08:27:31,130 - INFO - Initializing Trainer...
+2024-08-27 08:27:31,393 - INFO - Starting training...
+2024-08-27 08:35:34,988 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:36:10,561 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-08-27 08:36:10,562 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 69.79303547963207, 'eval_f1': 86.38196787628405, 'eval_runtime': 8.6876, 'eval_samples_per_second': 700.769, 'eval_steps_per_second': 11.05, 'epoch': 2.0}
+******************************
+
+
+2024-08-27 08:36:10,566 - INFO - 
+
+FarsTail
+
+2024-08-27 08:36:10,566 - INFO - Loading dataset...
+2024-08-27 08:36:41,051 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-27 08:36:41,103 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-27 08:36:41,262 - INFO - Tokenizing dataset...
+2024-08-27 08:36:44,630 - INFO - Initializing Trainer...
+2024-08-27 08:36:44,706 - INFO - Starting training...
+2024-08-27 08:38:26,404 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:38:27,142 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-08-27 08:38:27,142 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.0676419734954834, 'eval_accuracy': 0.41815856777493604, 'eval_f1': 0.33273915626856804, 'eval_runtime': 0.7359, 'eval_samples_per_second': 2125.252, 'eval_steps_per_second': 66.584, 'epoch': 7.0}
+******************************
+
+
+2024-08-27 08:38:27,143 - INFO - 
+
+DeepSentiPers
+
+2024-08-27 08:38:27,143 - INFO - Loading dataset...
+2024-08-27 08:38:32,597 - INFO - Mapping labels to ternary classification
+2024-08-27 08:38:32,685 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-27 08:38:32,743 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-27 08:38:32,862 - INFO - Tokenizing dataset...
+2024-08-27 08:38:35,605 - INFO - Initializing Trainer...
+2024-08-27 08:38:35,681 - INFO - Starting training...
+2024-08-27 08:40:16,895 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:40:19,947 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-08-27 08:40:19,947 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5819922089576721, 'eval_accuracy': 0.8149946062567421, 'eval_f1': 0.7787778183856994, 'eval_runtime': 3.0497, 'eval_samples_per_second': 607.933, 'eval_steps_per_second': 38.037, 'epoch': 3.0}
+******************************
+
+
+2024-08-27 08:40:19,948 - INFO - 
+
+ParsiNLU_Multi
+
+2024-08-27 08:40:19,948 - INFO - Loading dataset...
+2024-08-27 08:40:39,426 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-27 08:40:39,498 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-27 08:40:42,486 - INFO - Tokenizing dataset...
+2024-08-27 08:40:43,883 - INFO - Initializing Trainer...
+2024-08-27 08:40:43,961 - INFO - Starting training...
+2024-08-27 08:41:09,720 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:41:10,492 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-08-27 08:41:10,493 - INFO - 
+
+******************************
+Test results: {'eval_loss': 2.235668182373047, 'eval_accuracy': 0.31047619047619046, 'eval_f1-weighted': 0.31079234084437013, 'eval_precision': 0.314051768661934, 'eval_recall': 0.31047619047619046, 'eval_runtime': 0.7693, 'eval_samples_per_second': 1364.901, 'eval_steps_per_second': 42.897, 'epoch': 7.0}
+******************************
+
+
+2024-08-29 13:19:52,563 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-08-29 13:19:52,563 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-08-29 13:19:52,563 - INFO - 
+
+PQuAD
+
+2024-08-29 13:19:52,563 - INFO - Loading dataset...
+2024-08-29 13:19:56,536 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-29 13:19:56,610 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-29 13:19:58,671 - INFO - Tokenizing dataset...
+2024-08-29 13:19:58,996 - INFO - Initializing Trainer...
+2024-08-29 13:19:59,420 - INFO - Starting training...
+2024-08-29 13:27:17,283 - INFO - Evaluating model on the test dataset...
+2024-08-29 13:27:54,000 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-08-29 13:27:54,000 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 69.59592641261499, 'eval_f1': 86.35313850402878, 'eval_runtime': 8.8452, 'eval_samples_per_second': 688.286, 'eval_steps_per_second': 10.853, 'epoch': 2.0}
+******************************
+
+
+2024-08-29 13:27:54,009 - INFO - 
+
+FarsTail
+
+2024-08-29 13:27:54,009 - INFO - Loading dataset...
+2024-08-29 13:28:00,213 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-29 13:28:00,272 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-29 13:28:02,097 - INFO - Tokenizing dataset...
+2024-08-29 13:28:02,789 - INFO - Initializing Trainer...
+2024-08-29 13:28:02,902 - INFO - Starting training...
+2024-08-29 13:29:56,694 - INFO - Evaluating model on the test dataset...
+2024-08-29 13:29:57,473 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-08-29 13:29:57,474 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.0479631423950195, 'eval_accuracy': 0.4360613810741688, 'eval_f1': 0.36373550838173047, 'eval_runtime': 0.7764, 'eval_samples_per_second': 2014.436, 'eval_steps_per_second': 63.112, 'epoch': 7.0}
+******************************
+
+
+2024-08-29 13:29:57,475 - INFO - 
+
+DeepSentiPers
+
+2024-08-29 13:29:57,475 - INFO - Loading dataset...
+2024-08-29 13:30:01,088 - INFO - Mapping labels to ternary classification
+2024-08-29 13:30:01,182 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-29 13:30:01,244 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-29 13:30:01,369 - INFO - Tokenizing dataset...
+2024-08-29 13:30:04,205 - INFO - Initializing Trainer...
+2024-08-29 13:30:04,318 - INFO - Starting training...
+2024-08-29 13:31:49,909 - INFO - Evaluating model on the test dataset...
+2024-08-29 13:31:53,000 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-08-29 13:31:53,000 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5819922089576721, 'eval_accuracy': 0.8149946062567421, 'eval_f1': 0.7787778183856994, 'eval_runtime': 3.0881, 'eval_samples_per_second': 600.361, 'eval_steps_per_second': 37.563, 'epoch': 3.0}
+******************************
+
+
+2024-08-29 13:31:53,002 - INFO - 
+
+ParsiNLU_Multi
+
+2024-08-29 13:31:53,002 - INFO - Loading dataset...
+2024-08-29 13:31:56,981 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-29 13:31:57,056 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/test-fp-16-on-fixed-dataset/WWM-BERT/results/bert-fp-16-fixed-data-just-farsi-tookatokenizer-wwm-without-hmblogs/checkpoint-339942
+2024-08-29 13:31:57,349 - INFO - Tokenizing dataset...
+2024-08-29 13:31:57,614 - INFO - Initializing Trainer...
+2024-08-29 13:31:57,731 - INFO - Starting training...
+2024-08-29 13:32:24,837 - INFO - Evaluating model on the test dataset...
+2024-08-29 13:32:25,669 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-08-29 13:32:25,669 - INFO - 
+
+******************************
+Test results: {'eval_loss': 2.235668182373047, 'eval_accuracy': 0.31047619047619046, 'eval_f1-weighted': 0.31079234084437013, 'eval_precision': 0.314051768661934, 'eval_recall': 0.31047619047619046, 'eval_runtime': 0.8291, 'eval_samples_per_second': 1266.504, 'eval_steps_per_second': 39.804, 'epoch': 7.0}
+******************************
+
+

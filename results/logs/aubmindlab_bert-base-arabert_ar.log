@@ -1,0 +1,65 @@
+2024-11-17 05:54:08,957 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-11-17 05:54:08,957 - INFO - 
+
+==================================Testing on Arabic Dataset: ==================================
+
+
+2024-11-17 05:54:08,957 - INFO - 
+
+Emotone
+
+2024-11-17 05:54:08,958 - INFO - Loading dataset...
+2024-11-17 05:54:13,315 - INFO - Loading tokenizer from aubmindlab/bert-base-arabert
+2024-11-17 05:54:16,538 - INFO - Loading model from aubmindlab/bert-base-arabert
+2024-11-17 05:54:38,834 - INFO - Tokenizing dataset...
+2024-11-17 05:54:40,120 - INFO - Initializing Trainer...
+2024-11-17 05:54:40,520 - INFO - Starting training...
+2024-11-17 05:55:31,940 - INFO - Evaluating model on the test dataset...
+2024-11-17 05:55:33,038 - INFO - 
+
+=================Emoton Dataset Results: 
+
+2024-11-17 05:55:33,038 - INFO - Test results: {'eval_loss': 0.9395158290863037, 'eval_accuracy': 0.7072847682119205, 'eval_f1': 0.7069746807464415, 'eval_runtime': 1.0954, 'eval_samples_per_second': 2067.739, 'eval_steps_per_second': 64.817, 'epoch': 3.0}
+2024-11-17 05:55:33,039 - INFO - 
+
+ArEntail
+
+2024-11-17 05:55:33,039 - INFO - Loading dataset...
+2024-11-17 05:55:33,827 - WARNING - Repo card metadata block was not found. Setting CardData to empty.
+2024-11-17 05:55:37,585 - INFO - Loading tokenizer from aubmindlab/bert-base-arabert
+2024-11-17 05:55:37,872 - INFO - Loading model from aubmindlab/bert-base-arabert
+2024-11-17 05:55:38,126 - INFO - Tokenizing dataset...
+2024-11-17 05:55:38,643 - INFO - Initializing Trainer...
+2024-11-17 05:55:38,814 - INFO - Starting training...
+2024-11-17 05:57:01,584 - INFO - Evaluating model on the test dataset...
+2024-11-17 05:57:02,136 - INFO - 
+
+=================ArEntail Dataset Results: 
+
+2024-11-17 05:57:02,136 - INFO - Test results: {'eval_loss': 0.39522063732147217, 'eval_accuracy': 0.831, 'eval_f1': 0.8304096560125798, 'eval_runtime': 0.5497, 'eval_samples_per_second': 1819.327, 'eval_steps_per_second': 58.218, 'epoch': 7.0}

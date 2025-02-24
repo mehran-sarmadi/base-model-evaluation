@@ -1,0 +1,244 @@
+2024-08-27 07:52:12,477 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-08-27 07:52:12,477 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-08-27 07:52:12,477 - INFO - 
+
+PQuAD
+
+2024-08-27 07:52:12,477 - INFO - Loading dataset...
+2024-08-27 07:52:27,288 - INFO - Loading tokenizer from sbunlp/fabert
+2024-08-27 07:52:27,504 - INFO - Loading model from sbunlp/fabert
+2024-08-27 07:52:29,600 - INFO - Tokenizing dataset...
+2024-08-27 07:52:29,795 - INFO - Initializing Trainer...
+2024-08-27 07:52:30,191 - INFO - Starting training...
+2024-08-27 08:00:25,193 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:01:07,579 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-08-27 08:01:07,579 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 70.48291721419186, 'eval_f1': 87.34924378351636, 'eval_runtime': 10.8227, 'eval_samples_per_second': 562.524, 'eval_steps_per_second': 8.87, 'epoch': 2.0}
+******************************
+
+
+2024-08-27 08:01:07,588 - INFO - 
+
+FarsTail
+
+2024-08-27 08:01:07,588 - INFO - Loading dataset...
+2024-08-27 08:03:14,626 - INFO - Loading tokenizer from sbunlp/fabert
+2024-08-27 08:03:14,852 - INFO - Loading model from sbunlp/fabert
+2024-08-27 08:03:15,457 - INFO - Tokenizing dataset...
+2024-08-27 08:03:15,546 - INFO - Initializing Trainer...
+2024-08-27 08:03:15,625 - INFO - Starting training...
+2024-08-27 08:05:06,918 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:05:07,793 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-08-27 08:05:07,793 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.7043789029121399, 'eval_accuracy': 0.8318414322250639, 'eval_f1': 0.8325635254290332, 'eval_runtime': 0.8724, 'eval_samples_per_second': 1792.798, 'eval_steps_per_second': 56.168, 'epoch': 7.0}
+******************************
+
+
+2024-08-27 08:05:07,794 - INFO - 
+
+DeepSentiPers
+
+2024-08-27 08:05:07,795 - INFO - Loading dataset...
+2024-08-27 08:05:16,789 - INFO - Mapping labels to ternary classification
+2024-08-27 08:05:16,878 - INFO - Loading tokenizer from sbunlp/fabert
+2024-08-27 08:05:17,086 - INFO - Loading model from sbunlp/fabert
+2024-08-27 08:05:18,515 - INFO - Tokenizing dataset...
+2024-08-27 08:05:21,241 - INFO - Initializing Trainer...
+2024-08-27 08:05:21,328 - INFO - Starting training...
+2024-08-27 08:07:13,120 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:07:16,754 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-08-27 08:07:16,754 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5782538056373596, 'eval_accuracy': 0.790722761596548, 'eval_f1': 0.7496097811549091, 'eval_runtime': 3.6311, 'eval_samples_per_second': 510.592, 'eval_steps_per_second': 31.946, 'epoch': 3.0}
+******************************
+
+
+2024-08-27 08:07:16,755 - INFO - 
+
+ParsiNLU_Multi
+
+2024-08-27 08:07:16,755 - INFO - Loading dataset...
+2024-08-27 08:07:26,336 - INFO - Loading tokenizer from sbunlp/fabert
+2024-08-27 08:07:26,539 - INFO - Loading model from sbunlp/fabert
+2024-08-27 08:07:29,155 - INFO - Tokenizing dataset...
+2024-08-27 08:07:29,257 - INFO - Initializing Trainer...
+2024-08-27 08:07:29,331 - INFO - Starting training...
+2024-08-27 08:07:55,218 - INFO - Evaluating model on the test dataset...
+2024-08-27 08:07:56,143 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-08-27 08:07:56,144 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.9063115119934082, 'eval_accuracy': 0.32476190476190475, 'eval_f1-weighted': 0.32585771068050323, 'eval_precision': 0.32940317120892726, 'eval_recall': 0.32476190476190475, 'eval_runtime': 0.9224, 'eval_samples_per_second': 1138.314, 'eval_steps_per_second': 35.776, 'epoch': 7.0}
+******************************
+
+
+2024-11-23 07:29:55,107 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-11-23 07:29:55,107 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-11-23 07:29:55,108 - INFO - 
+
+PQuAD
+
+2024-11-23 07:29:55,108 - INFO - Loading dataset...
+2024-11-23 07:29:58,299 - INFO - Loading tokenizer from sbunlp/fabert
+2024-11-23 07:30:00,826 - INFO - Loading model from sbunlp/fabert
+2024-11-23 07:30:21,005 - INFO - Tokenizing dataset...
+2024-11-23 07:30:28,125 - INFO - Initializing Trainer...
+2024-11-23 07:30:28,674 - INFO - Starting training...
+2024-11-23 07:37:38,827 - INFO - Evaluating model on the test dataset...
+2024-11-23 07:38:10,134 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-11-23 07:38:10,134 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 70.59789750328515, 'eval_f1': 87.248637134527, 'eval_runtime': 8.9457, 'eval_samples_per_second': 680.552, 'eval_steps_per_second': 10.731, 'epoch': 2.0}
+******************************
+
+
+2024-11-23 07:38:10,147 - INFO - 
+
+FarsTail
+
+2024-11-23 07:38:10,147 - INFO - Loading dataset...
+2024-11-23 07:38:14,229 - INFO - Loading tokenizer from sbunlp/fabert
+2024-11-23 07:38:14,476 - INFO - Loading model from sbunlp/fabert
+2024-11-23 07:38:14,735 - INFO - Tokenizing dataset...
+2024-11-23 07:38:16,629 - INFO - Initializing Trainer...
+2024-11-23 07:38:16,826 - INFO - Starting training...
+2024-11-23 07:40:16,481 - INFO - Evaluating model on the test dataset...
+2024-11-23 07:40:17,277 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-11-23 07:40:17,277 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.7555412650108337, 'eval_accuracy': 0.8343989769820972, 'eval_f1': 0.8343181160113776, 'eval_runtime': 0.7933, 'eval_samples_per_second': 1971.629, 'eval_steps_per_second': 61.771, 'epoch': 7.0}
+******************************
+
+
+2024-11-23 07:40:17,279 - INFO - 
+
+DeepSentiPers
+
+2024-11-23 07:40:17,279 - INFO - Loading dataset...
+2024-11-23 07:40:20,386 - INFO - Mapping labels to ternary classification
+2024-11-23 07:40:20,451 - INFO - Loading tokenizer from sbunlp/fabert
+2024-11-23 07:40:20,883 - INFO - Loading model from sbunlp/fabert
+2024-11-23 07:40:21,143 - INFO - Tokenizing dataset...
+2024-11-23 07:40:21,876 - INFO - Initializing Trainer...
+2024-11-23 07:40:22,133 - INFO - Starting training...
+2024-11-23 07:41:33,839 - INFO - Evaluating model on the test dataset...
+2024-11-23 07:41:35,470 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-11-23 07:41:35,470 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.5394835472106934, 'eval_accuracy': 0.8160733549083063, 'eval_f1': 0.7803493464941439, 'eval_runtime': 1.628, 'eval_samples_per_second': 1138.842, 'eval_steps_per_second': 71.254, 'epoch': 3.0}
+******************************
+
+
+2024-11-23 07:41:35,471 - INFO - 
+
+ParsiNLU_Multi
+
+2024-11-23 07:41:35,471 - INFO - Loading dataset...
+2024-11-23 07:41:39,188 - INFO - Loading tokenizer from sbunlp/fabert
+2024-11-23 07:41:39,959 - INFO - Loading model from sbunlp/fabert
+2024-11-23 07:41:43,219 - INFO - Tokenizing dataset...
+2024-11-23 07:41:44,035 - INFO - Initializing Trainer...
+2024-11-23 07:41:44,226 - INFO - Starting training...
+2024-11-23 07:42:09,152 - INFO - Evaluating model on the test dataset...
+2024-11-23 07:42:09,980 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-11-23 07:42:09,980 - INFO - 
+
+******************************
+Test results: {'eval_loss': 1.899507999420166, 'eval_accuracy': 0.31047619047619046, 'eval_f1-weighted': 0.3114497180584774, 'eval_precision': 0.3152438555973665, 'eval_recall': 0.31047619047619046, 'eval_runtime': 0.8246, 'eval_samples_per_second': 1273.333, 'eval_steps_per_second': 40.019, 'epoch': 7.0}
+******************************
+
+

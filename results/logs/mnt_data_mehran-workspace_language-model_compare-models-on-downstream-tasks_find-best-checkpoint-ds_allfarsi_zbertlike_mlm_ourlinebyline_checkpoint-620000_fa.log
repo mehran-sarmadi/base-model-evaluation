@@ -1,0 +1,122 @@
+2024-10-07 14:30:23,771 - INFO - 
+
+
+
+
+
+##################################################
+
+
+
+
+
+##################################################
+################# Starting #################
+##################################################
+
+
+
+
+
+##################################################
+
+
+
+
+
+
+2024-10-07 14:30:23,772 - INFO - 
+
+
+==================================Testing on Persian Dataset: ==================================
+
+
+2024-10-07 14:30:23,772 - INFO - 
+
+PQuAD
+
+2024-10-07 14:30:23,772 - INFO - Loading dataset...
+2024-10-07 14:30:26,908 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-620000
+2024-10-07 14:30:26,983 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-620000
+2024-10-07 14:30:27,046 - INFO - Tokenizing dataset...
+2024-10-07 14:30:35,154 - INFO - Initializing Trainer...
+2024-10-07 14:30:35,503 - INFO - Starting training...
+2024-10-07 14:37:16,548 - INFO - Evaluating model on the test dataset...
+2024-10-07 14:37:44,554 - INFO - 
+
+=================SQuAD Dataset Results: 
+
+2024-10-07 14:37:44,554 - INFO - 
+
+******************************
+Test results: {'eval_exact_match': 68.64323258869908, 'eval_f1': 85.77997145602754, 'eval_runtime': 7.7964, 'eval_samples_per_second': 782.667, 'eval_steps_per_second': 12.313, 'epoch': 2.0}
+******************************
+
+
+2024-10-07 14:37:44,562 - INFO - 
+
+FarsTail
+
+2024-10-07 14:37:44,562 - INFO - Loading dataset...
+2024-10-07 14:37:48,984 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-620000
+2024-10-07 14:37:49,037 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-620000
+2024-10-07 14:37:49,090 - INFO - Tokenizing dataset...
+2024-10-07 14:37:51,189 - INFO - Initializing Trainer...
+2024-10-07 14:37:51,327 - INFO - Starting training...
+2024-10-07 14:39:47,271 - INFO - Evaluating model on the test dataset...
+2024-10-07 14:39:48,015 - INFO - 
+
+=================FarsTail Dataset Results: 
+
+2024-10-07 14:39:48,015 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.6313119530677795, 'eval_accuracy': 0.8356777493606138, 'eval_f1': 0.8358095559822601, 'eval_runtime': 0.741, 'eval_samples_per_second': 2110.655, 'eval_steps_per_second': 66.127, 'epoch': 7.0}
+******************************
+
+
+2024-10-07 14:39:48,016 - INFO - 
+
+DeepSentiPers
+
+2024-10-07 14:39:48,016 - INFO - Loading dataset...
+2024-10-07 14:39:52,426 - INFO - Mapping labels to ternary classification
+2024-10-07 14:39:52,497 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-620000
+2024-10-07 14:39:52,552 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-620000
+2024-10-07 14:39:52,596 - INFO - Tokenizing dataset...
+2024-10-07 14:39:53,473 - INFO - Initializing Trainer...
+2024-10-07 14:39:53,613 - INFO - Starting training...
+2024-10-07 14:41:02,765 - INFO - Evaluating model on the test dataset...
+2024-10-07 14:41:04,287 - INFO - 
+
+=================DeepSentiPers Dataset Results: 
+
+2024-10-07 14:41:04,287 - INFO - 
+
+******************************
+Test results: {'eval_loss': 0.6615391969680786, 'eval_accuracy': 0.8133764832793959, 'eval_f1': 0.7778177990064296, 'eval_runtime': 1.5193, 'eval_samples_per_second': 1220.322, 'eval_steps_per_second': 76.352, 'epoch': 3.0}
+******************************
+
+
+2024-10-07 14:41:04,287 - INFO - 
+
+ParsiNLU_Multi
+
+2024-10-07 14:41:04,288 - INFO - Loading dataset...
+2024-10-07 14:41:10,151 - INFO - Loading tokenizer from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-620000
+2024-10-07 14:41:10,205 - INFO - Loading model from /mnt/data/mehran-workspace/language-model/compare-models-on-downstream-tasks/find-best-checkpoint-ds/allfarsi_zbertlike_mlm_ourlinebyline/checkpoint-620000
+2024-10-07 14:41:13,599 - INFO - Tokenizing dataset...
+2024-10-07 14:41:14,563 - INFO - Initializing Trainer...
+2024-10-07 14:41:14,705 - INFO - Starting training...
+2024-10-07 14:41:42,573 - INFO - Evaluating model on the test dataset...
+2024-10-07 14:41:43,411 - INFO - 
+
+=================ParsiNLU Dataset Results: 
+
+2024-10-07 14:41:43,411 - INFO - 
+
+******************************
+Test results: {'eval_loss': 2.373849868774414, 'eval_accuracy': 0.3466666666666667, 'eval_f1-weighted': 0.34722267649310806, 'eval_precision': 0.3508386811891569, 'eval_recall': 0.3466666666666667, 'eval_runtime': 0.8351, 'eval_samples_per_second': 1257.365, 'eval_steps_per_second': 39.517, 'epoch': 7.0}
+******************************
+
+
