@@ -10,7 +10,7 @@ from persian.pquad import pquad_main
 from persian.parsinlu_mult import parsinlu_mult_main
 
 # English tasks (uncomment functions when ready)
-from english.squadv1 import squad_main
+from english.squad import squad_main
 from english.sst2 import sst2_main
 from english.mnli import mnli_main
 from english.race import race_main
@@ -34,11 +34,11 @@ LANGUAGE_TASKS: Dict[str, Dict[str, Tuple]] = {
     'en': {
         'name': 'English',
         'tasks': [
-            ('CoLA', ),      
-            ('SST-2	', ),      
-            ('MRPC', ),      
-            ('STS-B', ),
-            ('QQP', ),
+            ('Squad', squad_main),      
+            # ('SST-2	', ),      
+            # ('MRPC', ),      
+            # ('STS-B', ),
+            # ('QQP', ),
         ]
     },
     'ar': {
