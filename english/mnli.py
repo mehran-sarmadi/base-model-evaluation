@@ -40,8 +40,8 @@ def mnli_main(model_name_or_path, logger, output_dir, tokenizer_name_or_path=Non
     raw_datasets = load_dataset("SetFit/mnli")
     raw_datasets.pop('test')
     train_test_split = raw_datasets['train'].train_test_split(test_size = 0.01,seed = 42)    
-    raw_datasets['train'] = train_test_split['train']#.select(list(range(1, 8000)))
-    raw_datasets['validation'] = raw_datasets['validation']#.select(list(range(1, 700)))
+    raw_datasets['train'] = train_test_split['train']
+    raw_datasets['validation'] = raw_datasets['validation']
     raw_datasets['test'] = train_test_split['test']
 
 
