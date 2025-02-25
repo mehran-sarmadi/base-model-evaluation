@@ -40,7 +40,7 @@ def sst2_main(model_name_or_path, logger, output_dir, tokenizer_name_or_path=Non
     raw_datasets = load_dataset("stanfordnlp/sst2")
     raw_datasets.pop('test')
     train_test_split = raw_datasets['train'].train_test_split(test_size = 0.05,seed = 42)    
-    raw_datasets['train'] = train_test_split['train']#.select(list(range(1, 8000)))
+    raw_datasets['train'] = train_test_split['train']
     raw_datasets['test'] =  train_test_split['test']
 
     label_list = get_label_list(raw_datasets, split="train")

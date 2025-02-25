@@ -34,9 +34,10 @@ LANGUAGE_TASKS: Dict[str, Dict[str, Tuple]] = {
     'en': {
         'name': 'English',
         'tasks': [
-            # ('Squad', squad_main), 
-            ('mnli', mnli_main),
-            # ('SST-2', ),
+            # ('Squad', squad_main),
+            # ('MNLI-m', mnli_main),
+            ('SST-2', sst2_main),
+            ('RACE', race_main),
         ]
     },
     'ar': {
