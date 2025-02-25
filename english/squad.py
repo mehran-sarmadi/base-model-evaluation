@@ -220,7 +220,7 @@ def squad_main(model_name_or_path, logger, output_dir, tokenizer_name_or_path=No
         return EvalPrediction(predictions=formatted_predictions, label_ids=references)
 
     training_args = TrainingArguments(
-        output_dir=f"results/models/{'pquad'}/{str(datetime.datetime.now())}",
+        output_dir=f"results/models/{'squad'}/{str(datetime.datetime.now())}",
         save_total_limit=1,
         per_device_train_batch_size=64,
         per_device_eval_batch_size=64,
